@@ -1,5 +1,5 @@
 body{
-    background: #bebec5;
+    background: #d9e7fc;
 }
 
 .logo{
@@ -31,7 +31,7 @@ main{
     font-size: 32px;
     line-height: 150%;
     color: #0A3871;
-    background: #E5E5E5;
+    background: #FFFFFF;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 
@@ -62,6 +62,12 @@ main{
     color: #FFFFFF;
 }
 
+.encrypt:hover{
+    background: #1a5cac;
+    text-decoration: underline;
+    filter: brightness(85%);
+}
+
 .decrypt{
     background: #c2c6ca;
     border-radius: 24px;
@@ -78,7 +84,11 @@ main{
     order: 0;
     flex-grow: 1;
 }
-
+.decrypt:hover{
+    background: #8d9092;
+    text-decoration: underline;
+    filter: brightness(85%);
+}
 .message{
     font-family: 'Inter';
     font-style: normal;
@@ -94,7 +104,7 @@ main{
     background-position: 40px;
     background-size: 210px;
     box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
-    border-radius: 32px;
+    border-radius: 20px;
 }
 
 .result{
@@ -120,4 +130,9 @@ main{
     flex: none;
     order: 0;
     flex-grow: 1;
+}
+.copy:hover{
+    background: #ffffff92;
+    text-decoration: underline;
+    filter: brightness(85%);
 }
