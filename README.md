@@ -22,3 +22,10 @@
 gaitober" => "gato"
 
 La página debe tener campos para inserción del texto que será encriptado o desencriptado, y el usuario debe poder escoger entre las dos opciones. El resultado debe ser mostrado en la pantalla.
+
+# Author
+
+👤 **Frank J. Grijalba H.**
+
+- Twitter: [@FrankGrijalba](https://twitter.com/FrankGrijalba)
+- Github: [@FRANK-GRIJALBA](https://github.com/FRANK-GRIJALBA)
