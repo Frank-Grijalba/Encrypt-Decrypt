@@ -1,0 +1,123 @@
+body{
+    background: #bebec5;
+}
+
+.logo{
+    height: 48px;
+    width: 31px;
+    left: 44px;
+    top: 0px;
+    border-radius: 0px;
+    position: absolute;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.text-input{
+    position: flex;
+    margin-top: 90px;
+    margin-bottom: 90px;
+    width: 680px;
+    height: 288px;
+    left: 240px;
+    top: 168px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+    color: #0A3871;
+    background: #E5E5E5;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encrypt{
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 24px;
+    gap: 8px;
+    width: 328px;
+    height: 67px;
+    background: #0A3871;
+    border-radius: 24px;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.decrypt{
+    background: #c2c6ca;
+    border-radius: 24px;
+    width: 328px;
+    height: 67px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    color: #000000;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
+
+.message{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    position: relative;
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 300px;
+    height: 450px;
+    background-image: url("images/Muñeco.png");
+    background-repeat: no-repeat;
+    background-position: 40px;
+    background-size: 210px;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
+    border-radius: 32px;
+}
+
+.result{
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+
+}
+
+.copy{
+    width: 100px;
+    width: 300px;;
+    margin-left: 20px;
+    margin-top: 20px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 19px;
+    text-align: center;
+    border-radius: 24px;
+    color: #0A3871;
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+}
